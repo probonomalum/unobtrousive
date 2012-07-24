@@ -1,6 +1,6 @@
 # Unobtrousive
 
-A minimal theme for [Pelican](http://pelican.notmyidea.org/ "Pelican home") a static blog generator engine.
+A minimal theme for [Pelican](http://pelican.notmyidea.org/ "Pelican home"), a static blog generator engine.
 
 The theme is quite minimal, the basic idea is to build a theme for anyone who wants to have a blog just for writing, thus the attention to typography and readability.
 
