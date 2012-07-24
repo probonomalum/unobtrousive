@@ -1,0 +1,332 @@
+
+/* Resets */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+         
+            html {
+                
+                background-color: #fdfdfd;
+  				color: #797979;
+  				width: 600px;
+  				margin-left: auto;
+  				margin-right: auto;
+  				height: auto;
+  				-webkit-font-smoothing: antialiased;
+	font: 20px/30px "Palatino Linotype","Book Antiqua", Palatino, serif;
+}
+           
+           
+           
+           
+            #content.body {
+                padding-top:70px;
+                        }
+            
+            p {
+                margin-bottom: 30px;
+                margin-top: 20px;
+            }
+
+            a {
+  				text-decoration: none;
+  				color: #030303;
+  				padding-bottom: 2px;
+  				border-bottom: 1px dotted;
+				}
+
+
+			a:hover {
+				color: #797979;
+  				border-bottom: #030303 1px dotted;
+  				padding-bottom: 2px;
+					}
+
+
+            
+            
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Verdana;
+  font-size: 28px;
+  letter-spacing: -1px;
+  color: #030303;
+  font-weight: 800;
+  line-height: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  
+  
+  }
+
+h2 {
+	font-size: 26px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 20px;
+}
+h6 {
+	font-size: 18px;
+}
+
+
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+
+    border: none;
+  }
+
+
+
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover
+{
+
+  border: none;
+}
+
+ 
+h2.entry-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+ 
+}
+
+
+
+#menu{
+	text-align: center;
+	font-size: 14px;
+	margin-top: 20px;
+
+
+}
+
+#menu ul li a {
+	border-bottom: 1px solid #d5d5d5;
+}
+
+
+
+#menu ul li{
+	margin-top:  20px;
+	margin-bottom: 50px;
+	text-align: center;
+	margin-left: 0px;
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-transform: uppercase;
+	padding-bottom: 2px;
+	
+}
+
+
+#banner {
+	padding-bottom: 10px;
+	padding-top: 20px;
+	border-bottom: 0px solid #ebebeb;
+}
+
+#banner h1 {
+	font-size: 22px;
+}
+
+
+            
+article {
+	padding-top: 40px;
+}
+
+
+
+#content {
+	padding-top: 0px;
+}
+
+
+ 
+
+
+#published {
+	text-align: center;
+	color: #a9a9a9;
+	margin-bottom: 5px;
+	text-transform: none;
+	font: 800 14px/1.5 "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#archivi {
+	font-size: 0.8em;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+#archivi dd{
+	padding-bottom: 20px;
+}
+            
+            
+            
+                        hr {
+                width: 90%;
+                margin: 3em auto;
+                border: 0;
+                color: #eee;
+                background-color: #ccc;
+                height: 1px;
+                -webkit-box-shadow:0px 1px 0px rgba(255, 255, 255, 0.75);
+            }
+            
+            ul li {
+                margin-bottom: 10px;
+				list-style-type: square;
+				}
+            
+            ol li {
+                margin-bottom: 10px;
+				list-style-type: decimal;
+				}
+            
+            pre {
+	font: 0.8em "Courier New", Courier, mono;
+                margin: auto;
+                width: 95%;
+                overflow: hidden;
+                padding: 3px 10px 3px 20px;
+                -webkit-border-radius: 3px;
+                background-color: #eee;
+                border: 1px solid #ddd;
+            }
+            code {
+                padding: 2px;
+                -webkit-border-radius: 3px;
+                background-color: #eee;
+                border: 1px solid #ddd;
+	
+}
+            pre code {
+                border: none;
+                padding: 0;
+                background-color: transparent;
+                -webkit-border-radius: 0;
+            }
+            
+            
+            
+            
+                        
+            
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 100%;
+                border: 1none;
+            }
+            
+            blockquote {
+                margin-left: auto;
+                margin-right: 0;
+                width: 95%;
+                padding: 0 10px;
+                border-left: 3px solid #ddd;
+                color: #777;
+            }
+            table {
+                margin-left: auto;
+                margin-right: auto;
+                border-bottom: 1px solid #ddd;
+                border-right: 1px solid #ddd;
+                border-spacing: 0;
+                -webkit-box-shadow: 0 2px 4px #999;
+            }
+            table th {
+                padding: 3px 10px;
+                background-color: #eee;
+                border-top: 1px solid #ddd;
+                border-left: 1px solid #ddd;
+            }
+            table tr {
+            }
+            table td {
+                padding: 3px 10px;
+                border-top: 1px solid #ddd;
+                border-left: 1px solid #ddd;
+            }
+            caption {
+                font-size: 1.2em;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+            .markdowncitation {
+            }
+            .footnote {
+	
+                font-size: 0.7em;
+                vertical-align: super;
+            }
+            .footnotes ol {
+                font-weight: bold;
+            }
+            .footnotes ol li {
+
+                
+            }
+            .footnotes ol li p {
+                font-weight: normal;
+            }
+            
+            
+            #contentinfo {
+	border-top: 1px dotted;
+	text-align: center;
+	width: 600px;
+  height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+		padding-top: 45px;
+		font: 0.6em "Palatino Linotype","Book Antiqua", Palatino, serif;
+	border-top-color: #a9a9a9;
+}
+
+nome {
+color: #030303;
+  font-size: 12px;
+  font-family: verdana;
+  font-weight: 600;
+  text-transform: uppercase;
+}
