@@ -9,11 +9,12 @@
 {% for article in articles_page.object_list %}        
         <article class="hentry">    
                 
-                <p id="published"{{ article.date.isoformat() }}"> {{ article.locale_date }} <br>—</p>
+                
                 
                 
                 <header> <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title}}">{{ article.title }}</a></h2> </header>
                 <footer class="post-info">
+                <p id="published"{{ article.date.isoformat() }}"> {{ article.locale_date }}</p>
      
                     
      
