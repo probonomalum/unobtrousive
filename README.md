@@ -13,4 +13,5 @@ The current layout uses only the following pages.
 
 All the other pages, like tags, authors and categories, are not reachable form the current layout.
 
-This is the very first release, there are for sure bugs and still a lot to do.
+This is the very first release, with maybe bugs and still a lot to do.
+You can see a sample page [here](http://probonomalum.github.com "Unobtrousive demo blog").
