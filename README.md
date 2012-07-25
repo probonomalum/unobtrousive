@@ -9,6 +9,7 @@ The current layout uses only the following pages.
 
 - base.html
 - index.html
+- articles.html
 - archives.html
 
 All the other pages, like tags, authors and categories, are not reachable form the current layout.
