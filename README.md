@@ -12,7 +12,7 @@ The current layout uses only the following pages.
 - articles.html
 - archives.html
 
-All the other pages, like tags, authors and categories, are not reachable form the current layout.
+All the other pages, like tags, authors and categories, are not reachable from the current layout.
 
 This is the very first release, with maybe bugs and still a lot to do.
 You can see a sample page [here](http://probonomalum.github.com "Unobtrousive demo blog").
