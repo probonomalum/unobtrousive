@@ -5,6 +5,7 @@
         <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         {% endblock head %}
 </head>
 
@@ -48,7 +49,7 @@
         {% endblock %}
         <footer id="contentinfo" class="body">
                 <!-- <address id="about" class="vcard body"> -->
-                <nome>© {{ SITENAME }}</nome>  <footlink> -- Powered by <a href="http://pelican.notmyidea.org/">pelican</a>
+                <nome>{{ SITENAME }}</nome><br><br><footlink>Powered by <a href="http://pelican.notmyidea.org/">pelican</a>
                 with <a href="https://github.com/probonomalum/unobtrousive">unobtrusive</a> theme</footlink>
                 </address><!-- /#about -->
         </footer><!-- /#contentinfo -->
